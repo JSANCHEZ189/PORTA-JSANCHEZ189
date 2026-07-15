@@ -1,0 +1,10 @@
+:root{--surface:rgba(14,16,33,.9);--accent:#7c3aed;--accent2:#8b5cf6;--text:#e6eef8}
+*{box-sizing:border-box}
+body{font-family:Inter,Arial,sans-serif;margin:0;min-height:100vh;background:#070b17;color:var(--text);display:flex;justify-content:center;padding:36px 20px}
+.page{width:100%;max-width:1120px}
+.card,.about-box{background:var(--surface);border:1px solid rgba(255,255,255,.14);border-radius:28px;padding:32px;margin-bottom:24px}
+.card{display:flex;justify-content:space-between;align-items:center}
+h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(3rem,7vw,6rem);background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;color:transparent}
+.services{display:flex;gap:12px;list-style:none;padding:0;flex-wrap:wrap}
+.services li{background:#1a1d35;padding:10px 14px;border-radius:14px}
+.avatar{width:160px;height:160px;border-radius:24px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:flex;align-items:center;justify-content:center;font-weight:bold}
